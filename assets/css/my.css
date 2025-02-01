@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@font-face {
+  font-display: block;
+  font-family: fraunces-italic;
+  font-weight: 100 900;
+  src: url(/assets/font/fraunces-italic.woff2) format("woff2");
+}
+
+h1 {
+  color: #c82929;
+  font-size: 5.65rem;
+  font-variation-settings: "opsz" 70, "wght" 600, "SOFT" 0, "WONK" 1;
+  grid-area: 6 / 2 / 11 / 11;
+  line-height: 1.1;
+  margin: 0;
+  padding-inline-start: 50px;
+  text-shadow: -1px 2px 6px #ff5f5f, 0 2px #881616;
+  z-index: 3;
+}
+
+h1,
+h3 {
+  font-family: fraunces-italic;
+}
+
+.bg-flower {
+  grid-area: 5 / 4 / 16 / 11;
+  mix-blend-mode: color-burn;
+  opacity: 0.9;
+}
+
+body {
+  background-color: #f4deda;
+  background-image: url(/assets/textures/dotnoise.png);
+  margin: unset;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
