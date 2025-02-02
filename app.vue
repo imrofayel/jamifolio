@@ -1,14 +1,16 @@
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <ClientOnly>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </ClientOnly>
 </template>
 
 <script setup lang="ts">
-import 'lenis/dist/lenis.css';
 import { onMounted } from 'vue';
 
 onMounted(async () => {
+  await import('lenis/dist/lenis.css');
   const { default: Lenis } = await import('lenis');
   const lenis = new Lenis();
 
