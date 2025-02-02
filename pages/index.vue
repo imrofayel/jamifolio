@@ -106,7 +106,7 @@
       
       <NuxtImg src="img/flower.png" class="bg-flower -z-10 bottom-0 absolute right-20" width="300" />
 
-      <span class="text-5xl drop-shadow-sm fraunces pb-2">About myself</span>
+      <span class="text-6xl drop-shadow-sm fraunces pb-2">Myself</span>
 
       <span class="drop-shadow-sm ">I’m just a girl with a strong grip on <span
         class="bg-white/30 rounded-xl px-2 py-1 hover:bg-white/40 cursor-help">Python, C#, C/C++, SQLite3,</span> and tools like <span
