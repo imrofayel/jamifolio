@@ -1,10 +1,22 @@
 @import "tailwindcss";
 
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
 @font-face {
   font-display: block;
   font-family: fraunces-italic;
   font-weight: 100 900;
   src: url(/assets/font/fraunces-italic.woff2) format("woff2");
+}
+
+.fraunces {
+  font-family: fraunces-italic;
+  font-variation-settings: "SOFT" 0, "WONK" 1;
+}
+
+.geist {
+  font-family: "Geist", serif;
+  font-optical-sizing: auto;
 }
 
 h1 {
