@@ -54,10 +54,10 @@
         <span>1. <u class="decoration-wavy">Jarvis</u>: an program to perform various tasks based on voice commands.
 
           <span class="!flex py-4 !gap-2 text-lg"><span
-              class="!bg-white/30 rounded-full p-3 py-1 hover:!bg-white/50 cursor-help">python, speech recognition,
+              class="!bg-white/30 backdrop-blur-4xl rounded-full p-3 py-1 hover:!bg-white/50 cursor-help">python, speech recognition,
               pyttsx3, OpenCV, wikipedia, os, sys, webbrowser</span>
 
-            <span class="!bg-white/30 rounded-full p-3 py-1 hover:!bg-white/50"><a
+            <span class="!bg-white/30 backdrop-blur-xl rounded-full p-3 py-1 hover:!bg-white/50"><a
                 href="https://github.com/mahraibFatima/Jarvis" target="_blank">GitHub</a></span></span>
         </span>
 
@@ -66,10 +66,10 @@
           providing it's URL.
 
           <span class="!flex py-4 !gap-2 text-lg"><span
-              class="!bg-white/30 rounded-full p-3 py-1 hover:!bg-white/50 cursor-help">python, Spotify Web API,
+              class="!bg-white/30 backdrop-blur-xl rounded-full p-3 py-1 hover:!bg-white/50 cursor-help">python, Spotify Web API,
               YouTube-dl, pandas, ffmpeg, Git</span>
 
-            <span class="!bg-white/30 rounded-full p-3 py-1 hover:!bg-white/50"><a
+            <span class="!bg-white/30 backdrop-blur-xl rounded-full p-3 py-1 hover:!bg-white/50"><a
                 href="https://github.com/MahraibFatima/spotifyPlaylistDownloader"
                 target="_blank">GitHub</a></span></span>
         </span>
@@ -78,10 +78,10 @@
         <span>3. <u class="decoration-wavy">Rudder</u>: Wine Prediction end to end ML model
 
           <span class="!flex py-4 !gap-2 text-lg"><span
-              class="!bg-white/30 rounded-full p-3 py-1 hover:!bg-white/50 cursor-help">CI/CD pipeline, model predictions,
+              class="!bg-white/30 backdrop-blur-xl rounded-full p-3 py-1 hover:!bg-white/50 cursor-help">CI/CD pipeline, model predictions,
               deployment</span>
 
-            <span class="!bg-white/30 rounded-full p-3 py-1 hover:!bg-white/50"><a
+            <span class="!bg-white/30 backdrop-blur-xl rounded-full p-3 py-1 hover:!bg-white/50"><a
                 href="https://github.com/MahraibFatima/rudder" target="_blank">GitHub</a></span></span>
         </span>
 
