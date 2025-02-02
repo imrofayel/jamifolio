@@ -48,9 +48,9 @@
 
       <NuxtImg src="img/butterflies.png" class="bg-flower right-8 -z-10 absolute top-0" width="400" />
 
-      <span class="text-5xl fraunces">Projects</span>
+      <span class="text-5xl fraunces drop-shadow-sm">Projects</span>
 
-      <div class="py-6 text-[22px] underline-offset-4 geist flex flex-col gap-3">
+      <div class="py-6 text-[22px] underline-offset-4 geist flex flex-col gap-3 drop-shadow-sm">
         <span>1. <u class="decoration-wavy">Jarvis</u>: an program to perform various tasks based on voice commands.
 
           <span class="flex py-4 space-x-2 text-lg"><span
@@ -106,15 +106,15 @@
       
       <NuxtImg src="img/flower.png" class="bg-flower -z-10 bottom-0 absolute right-20" width="300" />
 
-      <span class="text-5xl fraunces">About myself</span>
+      <span class="text-5xl drop-shadow-sm fraunces pb-2">About myself</span>
 
-      <span>I’m just a girl with a strong grip on <span
+      <span class="drop-shadow-sm ">I’m just a girl with a strong grip on <span
         class="bg-white/30 rounded-xl px-2 py-1 hover:bg-white/40 cursor-help">Python, C#, C/C++, SQLite3,</span> and tools like <span
         class="bg-white/30 rounded-xl px-2 py-1 hover:bg-white/40 cursor-help">TensorFlow, PyTorch, Numpy, Pandas, and Scikit-learn.</span> I’m passionate about Machine Learning and Data Structures, and I’ve cracked 200+ problems on <span
         class="bg-white/30 rounded-xl px-2 py-1 hover:bg-white/40 cursor-help">Leetcode and CodeForces.</span> I’ve also contributed to 10+ repositories in <span
         class="bg-white/30 rounded-xl px-2 py-1 hover:bg-white/40 cursor-help">GSSOC’24 and GSSOC Extd’24,</span> always diving into collaborative coding. Always learning, always growing — let’s connect and build something incredible together!</span>
 
-        <div class="flex space-x-3"><span class="bg-white/30 rounded-xl max-w-fit p-2.5 hover:bg-white/40 py-0.5 mb-20"><a
+        <div class="flex space-x-3"><span class="bg-white/25 rounded-xl max-w-fit p-2.5 hover:bg-white/40 py-0.5 mb-20"><a
             href="mailto:mahraibfatima5@gmail.com" target="_blank">
 
             <svg xmlns="http://www.w3.org/2000/svg" width="28" viewBox="0 0 24 24" class="inline"><path fill="#c93637" d="M13.35 20.13c-.76.69-1.93.69-2.69-.01l-.11-.1C5.3 15.27 1.87 12.16 2 8.28c.06-1.7.93-3.33 2.34-4.29c2.64-1.8 5.9-.96 7.66 1.1c1.76-2.06 5.02-2.91 7.66-1.1c1.41.96 2.28 2.59 2.34 4.29c.14 3.88-3.3 6.99-8.55 11.76z"/></svg>
@@ -122,7 +122,7 @@
             Send email</a></span>
 
 
-            <span class="bg-white/30 rounded-xl  max-w-fit p-2.5 hover:bg-white/40 py-0.5 mb-20"><a
+            <!-- <span class="bg-white/25 rounded-xl  max-w-fit p-2.5 hover:bg-white/40 py-0.5 mb-20 "><a
             href="mailto:mahraibfatima5@gmail.com" target="_blank" class="flex items-center space-x-2">
 
             <svg xmlns="http://www.w3.org/2000/svg" width="26" class="inline" viewBox="0 0 64 64"><path fill="#0a66c2" d="M58.5 1H5.6C3.1 1 1.1 3 1.1 5.5v53c0 2.4 2 4.5 4.5 4.5h52.7c2.5 0 4.5-2 4.5-4.5V5.4C63 3 61 1 58.5 1M19.4 53.7h-9.1V24.2h9.1zm-4.6-33.6c-3 0-5.3-2.4-5.3-5.3s2.4-5.3 5.3-5.3s5.3 2.4 5.3 5.3s-2.2 5.3-5.3 5.3m39.1 33.6h-9.1V39.4c0-3.4-.1-7.9-4.8-7.9c-4.8 0-5.5 3.8-5.5 7.6v14.6h-9.1V24.2h8.9v4.1h.1c1.3-2.4 4.2-4.8 8.7-4.8c9.3 0 11 6 11 14.2v16z"/></svg>
@@ -130,12 +130,12 @@
             <span>LinkedIn</span></a></span>
           
           
-            <span class="bg-white/30 rounded-xl  max-w-fit p-2.5 hover:bg-white/40 py-0.5 mb-20"><a
+            <span class="bg-white/25 rounded-xl  max-w-fit p-2.5 hover:bg-white/40 py-0.5 mb-20"><a
             href="https://www.kaggle.com/code/mahraibfatima" target="_blank" class="flex items-center space-x-2">
 
             <svg xmlns="http://www.w3.org/2000/svg" width="26" viewBox="0 0 32 32"><path fill="#20a0ff" d="M25.099 31.812c-.025.12-.156.188-.375.188h-4.183q-.374 0-.656-.328l-6.907-8.787l-1.932 1.828v6.817c0 .313-.151.469-.463.469H7.338q-.468 0-.469-.469V.469c0-.308.157-.469.469-.469h3.245c.312 0 .463.161.463.469v19.124l8.271-8.359c.224-.224.443-.328.661-.328h4.319q.287-.002.38.239q.094.3-.047.417l-8.74 8.459l9.115 11.343c.125.141.156.276.093.48z"/></svg>
 
-            <span>Kaggle</span></a></span>
+            <span>Kaggle</span></a></span> -->
           
           </div>
 
